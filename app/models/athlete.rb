@@ -3,4 +3,5 @@ class Athlete < ActiveRecord::Base
     has_many :sponsorships
     has_many :brands, through: :sponsorships
     
+
 end

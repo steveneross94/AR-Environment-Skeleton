@@ -11,6 +11,10 @@ class Team < ActiveRecord::Base
         self.city
     end
 
+    def get_first_team
+        self.first
+    end
+
     
 
 end
