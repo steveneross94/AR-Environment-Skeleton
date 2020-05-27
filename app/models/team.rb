@@ -15,6 +15,10 @@ class Team < ActiveRecord::Base
         self.first
     end
 
+    def player_names
+       athletes.sort_by{|team| team.name}
+    end
+
     
 
 end
